@@ -12,24 +12,29 @@ Durante as aulas foram desenvolvidos e abordados os seguintes tópicos:
 * Criação das páginas de apresentação da lista de salas cadastradas
 * Instalação e integração do bootstrap e jquery
 
-Para executar o projeto no terminal, digite o comando:
+Para executar o backend no terminal, digite o comando:
 
 ```shell script
 mvn spring-boot:run
 ```
 
-Com isso, o projeto pode ser visto em execução no navegador:
+Acesso ao backend pelo navegador:
 
 ```uri
 http://localhost:8082/api/v1/rooms
 ```
 
-Instalação do angular
+Execução do frontend no terminal, digite o comando:
+
 ```shel script
-npm install -g @angular/cli
+ng serve
 ```
 
+Com isso, o projeto pode ser acessado pelo endereço:
 
+```uri
+http://localhost:4200/
+```
 
 O que eu utilizei para acompanhar este projeto:
 
