@@ -8,7 +8,9 @@ Durante as aulas foram desenvolvidos e abordados os seguintes tópicos:
 * Criação de modelo de dados para mapeamento de entidades em banco de dados
 * Desenvolvimento de operações de gerenciamento das salas
   * Cadastro, Leitura, Atualização e Remoção.
-* Relação de cada uma das operações acima com o padrão arquitetural REST, e a explicação de cada um dos conceitos REST envolvidos durante o desenvolvimento do projeto
+* Setup do frontend através do Angular/Cli
+* Criação das páginas de apresentação da lista de salas cadastradas
+* Instalação e integração do bootstrap e jquery
 
 Para executar o projeto no terminal, digite o comando:
 
@@ -22,10 +24,25 @@ Com isso, o projeto pode ser visto em execução no navegador:
 http://localhost:8082/api/v1/rooms
 ```
 
+Instalação do angular
+```shel script
+npm install -g @angular/cli
+```
+
+
+
 O que eu utilizei para acompanhar este projeto:
 
-* Java 11
-* Maven 3.8.1
-* VSCode
-* Controle de versão GIT
-* Conta GITHUB para armazenamento do projeto
+* CRUD REST API:
+  * Spring Boot 2.5.4
+  * Maven 3.8.1
+  * Java 11
+* FrontEnd:
+  * @Angular 12.2.3
+  * Bootstrap css
+* Outros Apps de suporte:
+  * VSCode 1.60.0
+  * NodeJs 12.22.5
+  * Npm 6.14.14
+  * Controle de versão GIT
+  * Conta GITHUB para armazenamento do projeto
